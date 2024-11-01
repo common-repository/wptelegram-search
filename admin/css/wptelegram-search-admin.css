@@ -1,0 +1,21 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .wptelegram-sign {
+    color: #fff;
+    font-weight: bold;
+    font-style: normal;
+    padding: 0px 6px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.wptelegram-sign.cross {
+	background: #cc1212;
+}
+.wptelegram-sign.tick {
+	background: #2c8806;
+}
+#wptelegram_search_result_template-container{
+    max-width: 400px;
+}
